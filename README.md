@@ -18,17 +18,16 @@
 - in `settings.py` dar fara commit in repo
 
 1. In `bin/activate` la sfarsitul fisierului
-DJANGO_MODULE_SETTINGS
-SECRET_KEY
-DBNAME
-DBUSER
-DBPASS
 - Unix/Linux/MacOS (activate):
 
 ```bash
 # activate:
 export SECRET_KEY="blbabb32#%$@$#%$^$#^"
 export DJANGO_SETTINGS_MODULE="producthunt.settings.local"
+
+export DBNAME="dbname"
+export DBUSER="dbuser"
+export DBPASS="password"
 
 export MAILCHIMP_API="--hidden--"
 export MAILCHIMP_LIST_ID="--hidden--"
@@ -40,6 +39,11 @@ export MAILCHIMP_LIST_ID="--hidden--"
 # activate.bat:
 set "SECRET_KEY=blbabb32#%$@$#%$^$#^"
 set "DJANGO_SETTINGS_MODULE=producthunt.settings.local"
+
+set "DBNAME=dbname"
+set "DBUSER=dbuser"
+set "DBPASS=password"
+
 
 set "MAILCHIMP_API=--hidden--"
 set "MAILCHIMP_LIST_ID=--hidden--"
