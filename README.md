@@ -49,4 +49,5 @@ set "MAILCHIMP_API=--hidden--"
 set "MAILCHIMP_LIST_ID=--hidden--"
 ```
 
-2. In `settings.py`
+2. In `settings_personal.py`
+- setat manual fiecare variabila necesara: `DJANGO_MODULE_SETTINGS`, `SECRET_KEY`, `DBNAME`, `DBUSER`,  `DBPASS`
